@@ -1,54 +1,19 @@
 # Proyecto alchemy
 
 ## Descripción
-El juego consiste en una mezcla del juego original de
-alchemy con el añadido de la gestion de los elementos, que
-son finitos.
+El juego consiste en que eres el dueño de una tienda de
+articulos. Cada cierto tiempo, aparecen clientes que compran
+dependiendo del precio los productos que has expuesto.
 
-Estos recursos se pueden combinar, incrementar y demás
-acciones mediante máquinas construidas para tales
-propositos. Las cuales pueden a su vez consumir otros
-elementos para su funcionamiento.
+Estos productos se tienen que craftear mediante combinar
+objetos y / o elementos entre sí.
 
-## Concepto de juego
+Los elementos básicos se compran a proveedores que ponen un
+precio y cantidad base. Y cuanto más famoso seas mejores
+productoso te venden.
 
-### Comienzos
-Al principio tienes:
-* Máquinas
-    * Fusionador
-    * Separador
-    * Mesa de trabajo
-* Elementos
-    * Agua
-    * Fuego
-    * Tierra
-    * Aire
+Los precios varian segun el mercado y van subiendo y bajando
+de "precio ideal".
 
-Obtención de recursos básicos:
-* Agua   : Se genera en el bosque
-* Fuego  : Quemando combustible en un horno
-* Tierra : Se genera en la mina
-* Aire   : Se genera en el bosque
-
-# Reglas de diseño
-
-## Reglas elementales
-* Nivel conceptual ( Inteligencia, amor, etc...)
-
-## Reglas de arte
-* 5 colores por sprite
-* Iconos elementales 16x16 encapsulados en orbes
-
-# Extras
-
-## TODOS y posibilidades
-* ( posibilidad ) Nivel atómico ( Oxigeno, Ozono, etc... )
-* ( Posibilidad ) Tiers de minerales diferentes.
-* Con cohete desbloqueas la zona del espacio que produce
-constantemente el elemento espacio y puede generar otros
-elementos como meteoros, etc...
-
-## Enlaces
-[Elementos](docs/elements.md)  
-[Elementos alchemy original](https://www.alchemyclassiccheats.com)  
-[Referencia alchemy](http://alchemycombinations.com/)
+### Resumen para vagos
+Idea original de alchemy + moonlighter.
