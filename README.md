@@ -74,3 +74,6 @@ combinar, y los hijos de ese, son el resultado.
 Cuando se la das a un aventurero se combierte en una
 botella, no ganas ni pierdes fama. Consigues menos
 materiales y la botella(el aventurero).
+
+## Enlaces
+[Recetas](docs/recipes.md)
