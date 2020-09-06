@@ -17,3 +17,60 @@ de "precio ideal".
 
 ### Resumen para vagos
 Idea original de alchemy + moonlighter.
+
+## Gameplay
+### Bucle jugable
+- Pides elementos a proveedores que dependiendo de tu fama
+  te ofrecen unos precios y materiales diferentes.
+- Con esos elementos crafteas items complejos como espadas,
+  armaduras y pociones.
+- Esos items complejos se venden a los aventureros, lo que
+  te proporciona dinero y fama.
+- Y el bucle se repite hasta que consigas X dinero o X fama.
+
+### Expediciones
+En estos pedidos, el aventurero te dice a que zona va a ir y
+el nivel de dificultad de la zona y que peligros hay en
+ella. Entonces tu eres el que tiene que decidir que items le
+das para sobrevivir a esa zona.
+
+Dependiendo de si lo hace o no, ganaras o perderas fama y si
+sobrevive te dara objetos de esa zona en concreto.
+
+### Modas
+Cada cierto tiempo un item se pone de moda. Este item pasa a
+valer mucho mas dinero y mucha gente lo quiere. Una vez se
+acaba la moda, el item se devalua por debajo de su precio
+original y poca gente lo quiere.
+
+### Tipos de clientes
+Se generan clientes dependiendo de tu fama ( niños, aventureros, etc...)
+
+Estos clientes tienen gustos diferentes y compran cosas
+diferentes.
+
+Los gustos estan basados en etiquetas como ( ligero, pesado, etc... )
+
+Si estos gustos pegan con la persona el valor aumenta y por
+lo tanto no solo te pagaran mas dinero si no que recibiras
+mas objetos y fama.
+
+### Contratación de aventureros
+Puedes pagar a un aventurero para que haga una expedición a
+la zona que tu eligas y con la dificultad que tu decides.
+
+### Pensando
+#### Colores
+Añadir colores a la ropa y armaduras👕.
+
+## Programación
+### Combinaciones
+Un arbol no-binario en el que cada nodo contiene un
+elemento. Para ver las combinaciones de ese nodo, recorres
+los hijos que son los elementos con los que se puede
+combinar, y los hijos de ese, son el resultado.
+
+### Pocion de botella
+Cuando se la das a un aventurero se combierte en una
+botella, no ganas ni pierdes fama. Consigues menos
+materiales y la botella(el aventurero).
