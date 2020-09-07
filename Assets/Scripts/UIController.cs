@@ -5,18 +5,13 @@ using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class Element : MonoBehaviour
+public class UIController : MonoBehaviour
 {
 	bool selected = false;
-
-	Collider2D colider;
-	Camera camera;
 
     // Start is called before the first frame update
     void Start()
     {
-		colider = this.GetComponent<Collider2D>();
-		camera = GameObject.Find("Main Camera").GetComponent<Camera>();
 	}
 
     // Update is called once per frame
@@ -26,10 +21,7 @@ public class Element : MonoBehaviour
 		Vector2 mousePos = Input.mousePosition;
 		float range = 80f;
 
-		print(Mathf.Abs(currentPos.x - mousePos.x) + " " +
-		Mathf.Abs(currentPos.y - mousePos.y));
-
-
+		// Grab and drop element
         if (Input.GetMouseButtonDown(0))
         {
             if (Mathf.Abs(currentPos.x - mousePos.x) <= range &&
@@ -38,7 +30,6 @@ public class Element : MonoBehaviour
 				this.selected = true;
             }
 		}
-
 
 		if (Input.GetMouseButtonUp(0))
 		{
