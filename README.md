@@ -28,7 +28,7 @@ Idea original de alchemy + moonlighter.
   te proporciona dinero y fama.
 - Y el bucle se repite hasta que consigas X dinero o X fama.
 
-### Expediciones
+### Encargos de expedición
 En estos pedidos, el aventurero te dice a que zona va a ir y
 el nivel de dificultad de la zona y que peligros hay en
 ella. Entonces tu eres el que tiene que decidir que items le
@@ -36,6 +36,14 @@ das para sobrevivir a esa zona.
 
 Dependiendo de si lo hace o no, ganaras o perderas fama y si
 sobrevive te dara objetos de esa zona en concreto.
+
+#### Contratación de aventureros
+Puedes pagar a un aventurero para que haga una expedición a
+la zona que tu eligas y con la dificultad que tu decides.
+
+Los aventureros tienen un valor al igual que los encargos de expedición pero no
+depende de tí sino que esta predefinido. Tienes que jugar con la dificultad
+adecuada para su valor mientras la balanceas para obtener los items que quieres.
 
 ### Modas
 Cada cierto tiempo un item se pone de moda. Este item pasa a
@@ -54,10 +62,6 @@ Los gustos estan basados en etiquetas como ( ligero, pesado, etc... )
 Si estos gustos pegan con la persona el valor aumenta y por
 lo tanto no solo te pagaran mas dinero si no que recibiras
 mas objetos y fama.
-
-### Contratación de aventureros
-Puedes pagar a un aventurero para que haga una expedición a
-la zona que tu eligas y con la dificultad que tu decides.
 
 ### Pensando
 #### Colores
